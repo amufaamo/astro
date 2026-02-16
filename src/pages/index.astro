@@ -1,14 +1,36 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import Welcome from "../components/Welcome.astro";
+import Layout from "../layouts/Layout.astro";
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
-<html lang="ja">
-  <body>
-    <h1>自己紹介</h1>
-    <p>バイオインフォマティクスの研究をしています。</p>
-    <a href="/astro/">トップに戻る</a>
-  </body>
-</html>
+
+<Layout title="Masakazu Ishikawa | Portfolio">
+	<section class="py-12">
+		<h1 class="text-4xl font-bold mb-4 tracking-tight">石川 正和</h1>
+		<p class="text-lg text-gray-600 mb-8">
+			香川大学 助教 | バイオインフォマティクス & 免疫学
+		</p>
+
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+			<div
+				class="p-6 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
+			>
+				<h3 class="font-bold text-xl mb-2">TidyBlock 🚀</h3>
+				<p class="text-sm text-gray-500">
+					Tidyverseを直感的に操作できるノードベースのGUIアプリケーション。
+				</p>
+			</div>
+
+			<div
+				class="p-6 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
+			>
+				<h3 class="font-bold text-xl mb-2">SingleRepExplorer 🧬</h3>
+				<p class="text-sm text-gray-500">
+					シングルセル・レパトア解析のためのR/Shinyアプリケーション。
+				</p>
+			</div>
+		</div>
+	</section>
+</Layout>
