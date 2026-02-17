@@ -1,13 +1,8 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
+import sitemap from "@astrojs/sitemap";
 
-import tailwindcss from '@tailwindcss/vite';
-
-// https://astro.build/config
 export default defineConfig({
-  site: 'https://amufaamo.github.io',
-  base: '/astro',
-
-  vite: {
-    plugins: [tailwindcss()],
-  },
+  site: "https://amufaamo.github.io",
+  base: "/astro",
+  integrations: [sitemap()],
 });
