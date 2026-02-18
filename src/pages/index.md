@@ -4,9 +4,9 @@ title: Astro Baseline
 description: Astro Baseline is a minimal HTML-first starter with senior defaults SEO, JSON-LD, a11y basics, and clean structure.
 ---
 
-# A boring, production-ready Astro starter.
+# こんにちは
 
-Astro Baseline is a minimal HTML-first starter with senior defaults: SEO, JSON-LD, a11y basics, and clean structure.
+これはAstroで作られたものです。
 
 ## What this is
 
