@@ -1,4 +1,3 @@
-Markdown
 ---
 layout: ../layouts/Layout.astro
 title: "自己紹介 - Masakazu Ishikawa"
